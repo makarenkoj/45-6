@@ -6,9 +6,16 @@ h1, h3 {
 h2 {
   font-family: Trebuchet MS, sans-serif;
 }
+
 .text {
   font-family: Trebuchet MS, sans-serif;
   font-size: 1.6rem;
   /*text-align: justify;*/
   text-indent: 20px;
+}
+
+p {
+  font-family: Times New Roman, Times, serif;
+  font-style: italic;
+  font-weight: bold;
 }

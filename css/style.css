@@ -12,7 +12,7 @@ body {
   flex-direction: column;
   margin-left: 20px;
   margin-right: 20px;
-  background-color: #cbcc94;
+  /*background-color: #9dc3cc;*/
 }
 
 .wrapper {
@@ -26,36 +26,44 @@ body {
   justify-content: space-around;
 }
 
+.centro {
+  background: white;
+  border:  6px double black;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
 .intro {
   display: flex;
   align-items: center;
-  /*border: 5px solid red;*/
-  padding: 5px;
   flex-direction: column;
-}
-
-.perfomens {
-
 }
 
 .block {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /*border: 5px solid #cc1c1b;*/
   padding: 10px;
 }
 
 .block3 {
   display: flex;
+  align-items: center;
   justify-content: space-around;
+  padding: 10px;
 }
 
 .block1 {
-
+  flex-direction: column;
 }
 
 .block2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.reviews {
   display: flex;
   justify-content: space-around;
 }
