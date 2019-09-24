@@ -1,0 +1,41 @@
+@media (max-width: 1260px) {
+  .icon, .image, .image_adv, .image_re {
+    width: 150px;
+    height: 150px;
+  }
+
+  .header {
+    flex-direction: column;
+  }
+
+
+}
+
+@media (max-width: 960px) {
+  .icon, .image, .image_adv, .image_re {
+    width: 80px;
+    height: 80px;
+  }
+
+  .reviews {
+    flex-direction: column;
+  }
+
+  .block2 {
+    flex-direction: column;
+  }
+
+  a.buttons {
+    width: auto;
+    height: auto;
+  }
+}
+
+@media (max-width: 680px) {
+  .icon, .image, .image_adv, .image_re {
+    width: 50px;
+    height: 50px;
+  }
+
+
+}

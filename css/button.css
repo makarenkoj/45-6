@@ -9,7 +9,7 @@ a.button {
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
   letter-spacing: 2px;
-  background-image: linear-gradient(to right, #9EEFE1 0%, #cc1c1b 51%, #9EEFE1 100%);
+  background-image: linear-gradient(to right, #53da3f 0%, #cc1c1b 51%, #9EEFE1 100%);
   background-size: 200% auto;
   box-shadow: 0 0 20px rgba(0, 0, 0, .1);
   transition: .5s;
@@ -20,7 +20,7 @@ a.buttons {
   height: 30px;
   text-decoration: none;
   padding-top: 9px;
-  color: #a675b3;
+  /*color: #a675b3;*/
   text-align: center;
   line-height: 20px;
   display: block;

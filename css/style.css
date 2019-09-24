@@ -59,7 +59,7 @@ body {
   flex-direction: row;
   justify-content: space-around;
   padding: 20px;
-  border: #3b2751 solid;
+  /*border: #3b2751 solid;*/
 }
 
 .reviews {
