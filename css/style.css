@@ -5,6 +5,8 @@
 
 html, body {
   height: 100%;
+  width: 90%;
+  margin: 0 auto;
 }
 
 body {
@@ -12,7 +14,7 @@ body {
   flex-direction: column;
   margin-left: 20px;
   margin-right: 20px;
-  /*background-color: #9dc3cc;*/
+  background-color: #c4fcef;
 }
 
 .wrapper {
@@ -27,7 +29,7 @@ body {
 }
 
 .centro {
-  background: white;
+  background: #c4fcef;
   border: 6px double black;
   padding: 10px;
   display: flex;
@@ -44,7 +46,6 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  /*align-items: center;*/
   padding: 100px;
 }
 
@@ -59,12 +60,12 @@ body {
   flex-direction: row;
   justify-content: space-around;
   padding: 20px;
-  /*border: #3b2751 solid;*/
 }
 
 .reviews {
   display: flex;
   justify-content: space-around;
+  margin: 80px;
 }
 
 .block2 {
