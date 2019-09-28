@@ -1,10 +1,14 @@
 @media (max-width: 1260px) {
-  .image, .image_adv, .image_re {
+  .image_adv {
     width: 150px;
     height: 150px;
   }
 
   .header {
+    flex-direction: column;
+  }
+
+  .block2 {
     flex-direction: column;
   }
 }
@@ -15,11 +19,16 @@
     height: 100px;
   }
 
+  .centro {
+    flex-direction: column;
+    align-items: center;
+  }
+
   .reviews {
     flex-direction: column;
   }
 
-  .block2 {
+  .block3 {
     flex-direction: column;
   }
 
@@ -30,10 +39,11 @@
 }
 
 @media (max-width: 680px) {
-  .image, .image_adv, .image_re {
+  .image_adv, .image_re {
     width: 70px;
     height: 70px;
   }
+
 }
 
 @media (max-width: 450px) {
