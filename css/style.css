@@ -9,10 +9,10 @@ html {
 
 body {
   margin: 0 auto;
-  width: 80%;
+  width: 60%;
   display: flex;
   flex-direction: column;
-  background-color: #c4fcef;
+  /*background-color: #c4fcef;*/
 }
 
 .wrapper {
@@ -27,7 +27,7 @@ body {
 }
 
 .centro {
-  background: #c4fcef;
+  /*background: #c4fcef;*/
   border: 6px double black;
   padding: 10px;
   display: flex;
@@ -57,16 +57,24 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  padding: 20px;
+  padding: 10px;
 }
 
 .reviews {
   display: flex;
+  flex-direction: row;
   justify-content: space-around;
-  margin: 80px;
+  padding: 10px;
 }
 
 .block2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.block3 {
   display: flex;
   justify-content: space-around;
   padding: 10px;
@@ -74,7 +82,11 @@ body {
 
 .footer {
   margin-top: auto;
-  padding: 50px;
+  padding: 20px;
+}
+
+.contact {
+  text-align: center;
 }
 
 .bord {
