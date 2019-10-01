@@ -28,7 +28,7 @@ body {
 
 .centro {
   /*background: #c4fcef;*/
-  border: 6px double black;
+  /*border: 6px double black;*/
   padding: 10px;
   display: flex;
   justify-content: space-around;
@@ -64,20 +64,21 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  align-items: flex-start;
+  margin-top: 10px;
   padding: 10px;
 }
 
 .block2 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  width: 40%;
   padding: 10px;
 }
 
 .block3 {
   display: flex;
-  justify-content: space-around;
-  padding: 10px;
+  justify-content: space-between;
+  margin-top: 50px;
+  padding: 5px;
 }
 
 .footer {
@@ -90,5 +91,24 @@ body {
 }
 
 .bord {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: 10px;
+}
 
+label {
+  float: left;
+  padding-right: 10px;
+}
+
+.field {
+  clear: both;
+  text-align: right;
+  line-height: 25px;
+}
+
+.main {
+  float: left;
 }

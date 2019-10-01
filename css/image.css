@@ -13,7 +13,7 @@
 }
 
 .image_re {
-  width: 55%;
-  height: 45%;
-  border: 3px solid #ccff43;
+  width: 60%;
+  padding: 5px;
+  float: right;
 }
