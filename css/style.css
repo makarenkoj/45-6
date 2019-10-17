@@ -17,16 +17,17 @@ body {
 .wrapper {
   display: flex;
   flex-direction: column;
+  #border: solid 4px red;
 }
 
 .header {
   display: flex;
-  padding: 20px;
+  margin: 20px 0 20px 0;
   justify-content: space-around;
 }
 
 .centro {
-  margin: 20px 20px 20px 20px;
+  margin: 20px 0 20px 0;
   padding: 10px;
   display: flex;
   justify-content: space-between;
@@ -42,7 +43,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 20px 20px 20px 20px;
+  margin: 20px 0 20px 0;
 }
 
 .block1 {
@@ -55,7 +56,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin: 20px 20px 20px 20px;
+  margin: 20px 0 20px 0;
 }
 
 .reviews {
@@ -63,7 +64,7 @@ body {
   flex-direction: row;
   justify-content: space-around;
   align-items: flex-start;
-  margin: 20px 20px 20px 20px;
+  margin: 20px 0 20px 0;
 }
 
 .block2 {
@@ -74,13 +75,13 @@ body {
 .block3 {
   display: flex;
   justify-content: space-between;
-  margin: 50px 10px 10px 10px;
-  padding: 5px;
+  margin: 20px 0 20px 0;
 }
 
 .footer {
   margin-top: auto;
-  padding: 20px;
+  padding: 10px;
+  #border: solid 4px red;
 }
 
 .contact {
