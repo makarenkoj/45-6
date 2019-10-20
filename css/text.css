@@ -1,20 +1,19 @@
-
 h1, h3 {
   text-align: center;
 }
 
-h2 {
-  font-family: Trebuchet MS, sans-serif;
-}
-
 .text {
-  font-family: Trebuchet MS, sans-serif;
+  font-family: "Trebuchet MS", sans-serif;
   font-size: 1.6rem;
-  text-indent: 20px;
 }
 
-p {
-  font-family: Times New Roman, Times, serif;
-  font-style: italic;
-  font-weight: bold;
+.text-medium {
+  font-family: "Trebuchet MS", sans-serif;
+  font-size: 1.2rem;
+}
+
+.text-small {
+  font-family: "Trebuchet MS", sans-serif;
+  font-size: 1rem;
+  text-align: center;
 }
