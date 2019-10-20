@@ -1,67 +1,28 @@
-@media (max-width: 1260px) {
-  .image_adv {
-    width: 150px;
-    height: 150px;
-  }
-
-  .header {
-    flex-direction: column;
-  }
-
-  .block2 {
-    flex-direction: column;
+@media (max-width: 1150px) {
+  body {
+    width: 80%;
   }
 }
 
-@media (max-width: 960px) {
-  .image_adv, .image_re {
-    width: 100px;
-    height: 100px;
+@media (max-width: 850px) {
+  body {
+    width: 90%;
   }
+}
 
-  .advantages {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .centro {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .reviews {
-    flex-direction: column;
-  }
-
-  .block3 {
-    flex-direction: column;
-  }
-
-  a.buttons {
-    width: auto;
-    height: auto;
+@media (max-width: 760px) {
+  body {
+    width: 100%;
   }
 }
 
 @media (max-width: 680px) {
-  .image_adv, .image_re {
-    width: 70px;
-    height: 70px;
-  }
-
-}
-
-@media (max-width: 450px) {
-  .image_adv, .image_re {
-    width: 40px;
-    height: 40px;
-  }
-
-  .image {
-    width: 8%;
-  }
-
-  .advantages {
+  .header, .intro {
     flex-direction: column;
+    align-items: center;
+  }
+
+  .container, .footer, .content {
+    justify-content: center;
   }
 }
