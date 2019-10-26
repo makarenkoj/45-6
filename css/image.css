@@ -2,18 +2,17 @@
   width: 25%;
 }
 
-.image-prezent {
+.image_content {
   width: 20%;
 }
 
-.image-frend {
+.image_frend {
   width: 90%;
 }
 
-
-.image_adv {
+.image_presentation {
   border: 2px solid #ff414f;
   border-radius: 100%;
-  height: 65px;
-  width: 150px;
+  height: 100px;
+  width: 140px;
 }

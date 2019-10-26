@@ -70,11 +70,16 @@ body {
 }
 
 .bord {
-
+  float: left;
+  line-height: 2.5;
 }
 
 .contact {
+  float: left;
+}
 
+.indent {
+  line-height: 2.5;
 }
 
 .field {

@@ -7,12 +7,12 @@ h1, h3 {
   font-size: 1.6rem;
 }
 
-.text-medium {
+.text_medium {
   font-family: "Trebuchet MS", sans-serif;
   font-size: 1.2rem;
 }
 
-.text-small {
+.text_small {
   font-family: "Trebuchet MS", sans-serif;
   font-size: 1rem;
   text-align: center;
