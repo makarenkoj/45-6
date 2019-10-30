@@ -70,8 +70,9 @@ body {
 }
 
 .bord {
-  float: left;
+  display: flex;
   line-height: 2.5;
+  flex-direction: column;
 }
 
 .contact {
@@ -83,9 +84,10 @@ body {
 }
 
 .field {
+  float: left;
   clear: both;
-  text-align: right;
-  line-height: 25px;
+  text-align: left;
+  line-height: 30px;
 }
 
 .main {
