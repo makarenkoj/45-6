@@ -73,10 +73,11 @@ body {
   display: flex;
   line-height: 2.5;
   flex-direction: column;
+  text-align: left;
 }
 
 .contact {
-  float: left;
+  text-align: left;
 }
 
 .indent {
@@ -91,5 +92,5 @@ body {
 }
 
 .main {
-  float: left;
+  text-align: left;
 }
