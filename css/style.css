@@ -10,7 +10,7 @@ html {
 body {
   margin: 0 auto;
   width: 60%;
-  /*border: solid red 3px;*/
+  font-family: "Trebuchet MS", sans-serif;
 }
 
 .wrapper {
@@ -18,24 +18,17 @@ body {
   flex-direction: column;
 }
 
-.header {
+.position {
   padding-bottom: 70px;
   padding-top: 50px;
+}
+
+.header {
   display: flex;
   justify-content: space-around;
 }
 
-.content {
-  padding-bottom: 70px;
-  padding-top: 50px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
 .intro {
-  padding-bottom: 70px;
-  padding-top: 50px;
   display: flex;
   justify-content: space-between;
 }
@@ -45,14 +38,18 @@ body {
   flex-direction: column;
 }
 
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
 .boxs {
   flex-basis: 150px;
   text-align: center;
 }
 
 .container {
-  padding-bottom: 70px;
-  padding-top: 50px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -63,37 +60,22 @@ body {
 }
 
 .footer {
-  padding-bottom: 70px;
-  padding-top: 50px;
   display: flex;
   justify-content: space-between;
 }
 
-.bord {
+.order {
   display: flex;
   line-height: 2.5;
   flex-direction: column;
   text-align: left;
 }
 
-.contact {
-  text-align: left;
-}
-
-.indent {
-  line-height: 2.5;
-}
-
 .field {
-  float: left;
   clear: both;
-  text-align: left;
   line-height: 30px;
 }
 
-.main {
-  text-align: left;
-}
 .button_left {
   width: 40%;
 }

@@ -1,19 +1,15 @@
-h1, h3 {
+.text_center {
   text-align: center;
 }
 
 .text {
-  font-family: "Trebuchet MS", sans-serif;
   font-size: 1.6rem;
 }
 
 .text_medium {
-  font-family: "Trebuchet MS", sans-serif;
   font-size: 1.2rem;
 }
 
 .text_small {
-  font-family: "Trebuchet MS", sans-serif;
   font-size: 1rem;
-  text-align: center;
 }
