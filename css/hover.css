@@ -1,0 +1,11 @@
+.buttons:hover {
+  color: #333;
+  background-color: #34a4f9;
+  transition: all ease .3s;
+}
+
+.button:hover {
+  color: #333;
+  background-color: red;
+  transition: all ease .3s;
+}
